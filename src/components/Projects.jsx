@@ -15,6 +15,14 @@ const FILTERS = [{ id: 'all', label: 'All' }, ...CATEGORIES];
 
 const PROJECTS = [
   {
+    id: 'supermarket-sales',
+    name: 'Supermarket Sales Dashboard',
+    image: asset('projects/supermarket-sales.png'),
+    caption: 'Sales analytics & performance insights',
+    categories: ['data-analytics'],
+    href: asset('projects/supermarket-sales.pdf'),
+  },
+  {
     id: 'bike',
     name: 'Exploratory Data Analysis: Sales Bike',
     image: asset('projects/bike.jpg'),
